@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6246273C2A8BE51600A474CB /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6246273B2A8BE51600A474CB /* CustomButtonView.swift */; };
+		6246273E2A8BECAC00A474CB /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6246273D2A8BECAC00A474CB /* GradientButtonStyle.swift */; };
+		6264F7C42A8D56B3009D6119 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6264F7C32A8D56B3009D6119 /* CustomCircleView.swift */; };
+		6264F7C62A8D5815009D6119 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6264F7C52A8D5815009D6119 /* MotionAnimationView.swift */; };
 		626656F82A8AB6DE0008A5FB /* hiking_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626656F72A8AB6DE0008A5FB /* hiking_AppApp.swift */; };
 		626656FA2A8AB6DE0008A5FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626656F92A8AB6DE0008A5FB /* ContentView.swift */; };
 		626656FC2A8AB6DF0008A5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626656FB2A8AB6DF0008A5FB /* Assets.xcassets */; };
 		626656FF2A8AB6DF0008A5FB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 626656FE2A8AB6DF0008A5FB /* Preview Assets.xcassets */; };
+		6266570A2A8AB9ED0008A5FB /* card_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626657092A8AB9ED0008A5FB /* card_view.swift */; };
+		6266570D2A8ABB5B0008A5FB /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266570C2A8ABB5B0008A5FB /* CustomBackgroundView.swift */; };
+		626657102A8ABD130008A5FB /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6266570F2A8ABD130008A5FB /* ColorExtension.swift */; };
+		6275313C2A8DE6B40020F796 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6275313B2A8DE6B40020F796 /* SettingsView.swift */; };
+		62FF5E152A8FDC5400029E12 /* CustomListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FF5E142A8FDC5400029E12 /* CustomListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6246273B2A8BE51600A474CB /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		6246273D2A8BECAC00A474CB /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
+		6264F7C32A8D56B3009D6119 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		6264F7C52A8D5815009D6119 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		626656F42A8AB6DE0008A5FB /* hiking App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hiking App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		626656F72A8AB6DE0008A5FB /* hiking_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiking_AppApp.swift; sourceTree = "<group>"; };
 		626656F92A8AB6DE0008A5FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		626656FB2A8AB6DF0008A5FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		626656FE2A8AB6DF0008A5FB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		626657092A8AB9ED0008A5FB /* card_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = card_view.swift; sourceTree = "<group>"; };
+		6266570C2A8ABB5B0008A5FB /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		6266570F2A8ABD130008A5FB /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		6275313B2A8DE6B40020F796 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		62FF5E142A8FDC5400029E12 /* CustomListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +69,13 @@
 		626656F62A8AB6DE0008A5FB /* hiking App */ = {
 			isa = PBXGroup;
 			children = (
+				6275313A2A8DE69B0020F796 /* Screen */,
+				6266570E2A8ABCF40008A5FB /* Utility */,
 				626656F72A8AB6DE0008A5FB /* hiking_AppApp.swift */,
 				626656F92A8AB6DE0008A5FB /* ContentView.swift */,
 				626656FB2A8AB6DF0008A5FB /* Assets.xcassets */,
 				626656FD2A8AB6DF0008A5FB /* Preview Content */,
+				6266570B2A8ABB270008A5FB /* Component */,
 			);
 			path = "hiking App";
 			sourceTree = "<group>";
@@ -65,6 +86,36 @@
 				626656FE2A8AB6DF0008A5FB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6266570B2A8ABB270008A5FB /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				626657092A8AB9ED0008A5FB /* card_view.swift */,
+				6266570C2A8ABB5B0008A5FB /* CustomBackgroundView.swift */,
+				6246273B2A8BE51600A474CB /* CustomButtonView.swift */,
+				6264F7C32A8D56B3009D6119 /* CustomCircleView.swift */,
+				6264F7C52A8D5815009D6119 /* MotionAnimationView.swift */,
+				62FF5E142A8FDC5400029E12 /* CustomListView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		6266570E2A8ABCF40008A5FB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				6266570F2A8ABD130008A5FB /* ColorExtension.swift */,
+				6246273D2A8BECAC00A474CB /* GradientButtonStyle.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		6275313A2A8DE69B0020F796 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				6275313B2A8DE6B40020F796 /* SettingsView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +189,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				626656FA2A8AB6DE0008A5FB /* ContentView.swift in Sources */,
+				6264F7C42A8D56B3009D6119 /* CustomCircleView.swift in Sources */,
+				6266570A2A8AB9ED0008A5FB /* card_view.swift in Sources */,
+				62FF5E152A8FDC5400029E12 /* CustomListView.swift in Sources */,
 				626656F82A8AB6DE0008A5FB /* hiking_AppApp.swift in Sources */,
+				6246273C2A8BE51600A474CB /* CustomButtonView.swift in Sources */,
+				6275313C2A8DE6B40020F796 /* SettingsView.swift in Sources */,
+				6246273E2A8BECAC00A474CB /* GradientButtonStyle.swift in Sources */,
+				6264F7C62A8D5815009D6119 /* MotionAnimationView.swift in Sources */,
+				6266570D2A8ABB5B0008A5FB /* CustomBackgroundView.swift in Sources */,
+				626657102A8ABD130008A5FB /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +322,10 @@
 		626657032A8AB6DF0008A5FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Backpack AppIcon-Map AppIcon-MagnifyingGlass AppIcon-CampFire AppIcon-Mushroom AppIcon-Camera";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hiking App/Preview Content\"";
@@ -291,8 +353,10 @@
 		626657042A8AB6DF0008A5FB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Backpack AppIcon-Map AppIcon-MagnifyingGlass AppIcon-CampFire AppIcon-Mushroom AppIcon-Camera";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"hiking App/Preview Content\"";
